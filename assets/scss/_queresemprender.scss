@@ -1,0 +1,54 @@
+
+/*Comienza Formulario*/
+.formCompletar {
+    display: flex;
+    width: 400px;
+    background-color: rgba(59, 59, 59, 0);
+    color: rgb(4, 4, 4);
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: start;
+
+    .boton{
+        background-color:bisque;
+        border-radius: 5px;
+
+    }
+
+    .controls {
+    background: #d1ccccf5;
+    width: 100%;
+    border: 1px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 9px;
+    margin-bottom: 16px;
+    }
+}
+
+
+
+.Informacion {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    
+    .titulo {
+        color: red;
+        margin: 20px; 
+        font-size: 4rem;
+    }
+}
+
+.boton{
+    border: 0.5;
+    padding: 5px 8px 8px 5px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.boton-secundario{
+    @extend .boton;
+}
+
+/*Finaliza Formulario*/

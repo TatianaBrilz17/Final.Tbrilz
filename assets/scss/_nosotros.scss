@@ -1,0 +1,28 @@
+.ContenidoNosotros{ 
+
+    .ContenidoNosotros__h2 {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 22px;
+        font-family: 'Clicker Script';
+        color: rgb(211, 54, 67);   
+        font-size: 5em;
+    } 
+
+    .ParrafoNosotros, h5, h6, p {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: rgb(3, 19, 6);
+        font-size: 20px;
+        background-color: rgba(240, 234, 227, 0.767);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}  
+
+
+div{
+    background-image: url(/Assets/imagen/evie-s-_8vovuZCj0c-unsplash-min.jpg);
+}
